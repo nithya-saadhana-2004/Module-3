@@ -12,7 +12,6 @@ To write a Python program that calculates the **sum of all elements** in a list.
 ``
 items=[153,147,124,102]
 print(sum(items))
-
 ``
 
 
