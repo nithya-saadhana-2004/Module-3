@@ -14,6 +14,7 @@ items=[153,147,124,102]
 print(sum(items))
 ``
 
+
 ## Output
 ![Uploading WhatsApp Image 2025-11-24 at 1.18.45 PM.jpeg…]()
 
