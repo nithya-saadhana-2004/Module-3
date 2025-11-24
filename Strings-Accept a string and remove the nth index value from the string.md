@@ -13,10 +13,17 @@ To write a Python program that accepts a string and removes the character at a s
 6. If `i != n`, append the character at index `i` to string `a`.
 7. After the loop, return the modified string `a`.
 8. Print the final result.
-
 ## 💻 Program
-Add Code Here
-
+```
+n=int(input())
+def remove(a):
+    for i in range(0,len(a)):
+        if(i!=n):
+            print(a[i],end='')
+```
 ## Output
+![WhatsApp Image 2025-11-24 at 1 19 45 PM](https://github.com/user-attachments/assets/11b0b4c5-cee7-45ba-9428-06933ace972a)
+
 
 ## Result
+Thus the program executed successfully.
