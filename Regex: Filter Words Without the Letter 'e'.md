@@ -16,14 +16,18 @@ To write a Python program that filters out and returns all elements from a list 
 ## 🧾 Program
 Add code here
 ```
-n=int(input())
-def remove(a):
-    for i in range(0,len(a)):
-        if(i!=n):
-            print(a[i],end='')
+import re
+l1 = []
+items = ['goal', 'new', 'user', 'sit', 'eat', 'dinner']
+for i in items:
+    if not re.search(r"e", i):
+        l1.append(i)
+print("Words without 'e':", l1)
 ```
+
 ## Output
-![WhatsApp Image 2025-11-24 at 1 19 45 PM](https://github.com/user-attachments/assets/01adaa3b-bc98-4a60-be84-ba4a23de7d9d)
+![WhatsApp Image 2025-11-24 at 1 19 15 PM](https://github.com/user-attachments/assets/9228eaa5-515d-4f15-a92c-843b0f1fd3d3)
+
 
 
 ## Result
