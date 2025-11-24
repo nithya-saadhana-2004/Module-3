@@ -15,6 +15,16 @@ To write a Python program that filters out and returns all elements from a list 
 
 ## 🧾 Program
 Add code here
+```
+n=int(input())
+def remove(a):
+    for i in range(0,len(a)):
+        if(i!=n):
+            print(a[i],end='')
+```
 ## Output
+![WhatsApp Image 2025-11-24 at 1 19 45 PM](https://github.com/user-attachments/assets/01adaa3b-bc98-4a60-be84-ba4a23de7d9d)
+
 
 ## Result
+Thus the program executed successfully.
