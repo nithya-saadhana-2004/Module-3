@@ -15,7 +15,8 @@ print(sum(items))
 ```
 
 ## Output
-![Uploading WhatsApp Image 2025-11-24 at 1.18.45 PM.jpeg…]()
+![WhatsApp Image 2025-11-24 at 1 18 45 PM](https://github.com/user-attachments/assets/ece8e7d7-195c-4682-8a3f-7c504ca8972d)
+
 
 ## Result
 Thus the program executed successfully.
